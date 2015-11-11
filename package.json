@@ -1,0 +1,19 @@
+{
+  "name": "instantclick",
+  "version": "3.1.0",
+  "description": "dramatically speeds up your website",
+  "main": "instantclick.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "EGOIST",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egoist/instantclick.git"
+  },
+  "homepage": "https://github.com/egoist/instantclick",
+  "bugs": {
+    "url": "https://github.com/egoist/instantclick/issues"
+  }
+}
