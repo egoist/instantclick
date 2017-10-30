@@ -7,7 +7,7 @@
   "unpkg": "dist/instantclick.js",
   "scripts": {
     "test": "npm run build",
-    "build": "node build && bili --format umd --module-name InstantClick",
+    "build": "node build && bili --format umd --compress umd --module-name InstantClick",
     "prepublishOnly": "npm test"
   },
   "author": "EGOIST",
