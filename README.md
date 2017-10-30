@@ -6,16 +6,20 @@
 
 The unofficial NPM package for the well known [InstantClick](http://instantclick.io) library.
 
-```javascript
-npm install instantclick --save-dev
-
-// I haven't tested it, but it should with browserify and webpack
-import instantclick from 'instantclick'
-instantclick.init()
+```bash
+yarn add instantclick
 ```
 
-See usage and test on the original repo: https://github.com/dieulot/instantclick
+```javascript
+import InstantClick from 'instantclick'
+
+InstantClick.init()
+```
+
+CDN: [unpkg](https://unpkg.com/instantclick/) | [jsDelivr](https://cdn.jsdelivr.net/npm/instantclick/) (as `window.InstantClick`)
+
+See more usages and test on the original website: http://instantclick.io/documentation
 
 ## License
 
-[MIT](/LICENSE).
+[MIT](/LICENSE) &copy; [EGOIST](https://github.com/egoist).
